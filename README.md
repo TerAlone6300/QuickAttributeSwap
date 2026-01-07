@@ -1,72 +1,47 @@
-QuickAttributeSwap
+# QuickAttributeSwap
 
 A Fabric client-side mod for Minecraft that lets you quickly swap selected attributes or hotbar slots using a keybind.
 
 Built for modern Minecraft versions with Fabric Loom. Lightweight, no server-side required.
 
-Features
+## Features
 
-Swap between two configured hotbar slots instantly
+- Swap between two configured hotbar slots instantly  
+- Client-side only (safe for most servers)  
+- Simple config screen  
+- ModMenu integration (optional)  
 
-Client-side only (safe for most servers)
+## Requirements
 
-Simple config screen
+- Minecraft (Fabric)  
+- Fabric Loader  
+- Java 21 (recommended)  
 
-ModMenu integration (optional)
+## Installation
 
+1. Install Fabric Loader for your Minecraft version  
+2. Drop `QuickAttributeSwap-*.jar` into your mods folder  
+3. Launch the game  
 
-Requirements
+## Usage
 
-Minecraft (Fabric)
+- Open the config screen (via ModMenu if installed)  
+- Set Slot A and Slot B  
+- Press the configured key to swap  
 
-Fabric Loader
+## Development
 
-Fabric API
+- `./gradlew build`  
+- The built jar will be in `build/libs/`  
 
-Java 21 (recommended)
+## Notes
 
+- This mod is client-side only  
+- No gameplay logic is executed on the server  
 
-Installation
-
-1. Install Fabric Loader for your Minecraft version
-
-
-2. Install Fabric API
-
-
-3. Drop QuickAttributeSwap-*.jar into your mods folder
-
-
-4. Launch the game
-
-
-
-Usage
-
-Open the config screen (via ModMenu if installed)
-
-Set Slot A and Slot B
-
-Press the configured key to swap
-
-
-Development
-
-./gradlew build
-
-The built jar will be in build/libs/.
-
-Notes
-
-This mod is client-side only
-
-No gameplay logic is executed on the server
-
-
-License
+## License
 
 This project is licensed under the MIT License.
-
 
 ---
 
