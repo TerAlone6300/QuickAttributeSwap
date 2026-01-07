@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "quickattributeswap",
+  "version": "${version}",
+  "name": "Quick Attribute Swap",
+  "description": "Manual hotbar swap helper (QoL, vanilla-safe)",
+  "authors": ["TerAlone"],
+  "environment": "client",
+
+  "entrypoints": {
+    "client": [
+      "asia.axientstudio.teralone.quickattributeswap.QuickAttributeSwapClient"
+    ],
+    "modmenu": [
+      "asia.axientstudio.teralone.quickattributeswap.integration.ModMenuEntry"
+    ]
+  },
+
+  "mixins": [
+    "quickattributeswap.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.x"
+  }
+}

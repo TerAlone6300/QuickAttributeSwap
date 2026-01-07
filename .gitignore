@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Gradle Wrapper binaries (KHÔNG ignore)
+!gradlew
+!gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Fabric / Loom
+run/
+remappedSrc/
+
+# Kotlin / Java cache
+*.class
